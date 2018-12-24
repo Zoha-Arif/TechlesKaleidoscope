@@ -7,7 +7,7 @@
 }
 
 .navb {
-    background-color: #4CAF50; /* Green */
+    background-color:  #241F1F; /* Green */
     border: none;
     color: white;
     padding: 15px 32px;
@@ -15,4 +15,6 @@
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    font-family: 'Source Code Pro', monospace;
 } 
+
