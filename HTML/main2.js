@@ -4,9 +4,12 @@ var rooms = {
     "con3": "hello", 
     "con5": "show", 
     "con4": "goodbye", 
+    "con6": "pronunciation",
     "room1": "To contact me, email the.techles.kaleidoscope@gmail.com. ", 
     "room2": "Hello. I am Mango. ", 
     "room3": "Goodbye. I hope you come back soon. ", 
+    "room4": "You pronounciation my name, 'Mango', like 'Man - Joe', not like 'mang - go' the fruit."
+    
 }
 
 $(document).ready(function(){
@@ -81,8 +84,24 @@ $(document).ready(function(){
             }
             typeWriter.call(); 
     } 
+    else if (input1.includes(rooms["con6"])){ 
+        var i = 0;
+        var w = 1; 
+        var txt = rooms["room4"]; /* The text */
+        var speed = 30; /* The speed/duration of the effect in milliseconds */
+
+        //This function is attributed to W3 Schools!//
+        function typeWriter() {
+            if (i < txt.length) {
+            document.getElementById("command").innerHTML += txt.charAt(i);
+            i++;
+            setTimeout(typeWriter, speed);
+            }
+        }
+        typeWriter.call(); 
+} 
     else if (input1.includes(rooms["con5"])){ 
-        var commands = ["hello", "goodbye", "email", "contact"];
+        var commands = ["hello", "goodbye", "email", "contact", "pronunciation"];
         function showHelp(){
             $("#command").append("<p>Here are your complete list of commands: </p>"); 
             $("#command").append("<ul>"); 
