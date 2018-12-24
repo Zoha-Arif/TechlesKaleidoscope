@@ -48,3 +48,16 @@ setInterval(() => {
      cursor = true;
    }
 }, speed);
+
+var cursor = true;
+var speed = 220;
+
+setInterval(() => {
+   if(cursor) {
+     document.getElementById('cursor1').style.opacity = 0;
+     cursor = false;
+   }else {
+     document.getElementById('cursor1').style.opacity = 1;
+     cursor = true;
+   }
+}, speed);
