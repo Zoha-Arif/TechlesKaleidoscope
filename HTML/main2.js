@@ -5,7 +5,7 @@ var rooms = {
     "con5": "show", 
     "con4": "goodbye", 
     "room1": "To contact me, email the.techles.kaleidoscope@gmail.com. ", 
-    "room2": "Hello. I am Kang. ", 
+    "room2": "Hello. I am Mango. ", 
     "room3": "Goodbye. I hope you come back soon. ", 
 }
 
