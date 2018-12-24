@@ -88,5 +88,16 @@ body {
     font-family: 'Source Code Pro', monospace; 
 }
 
+#box1 {
+    display: inline-block; 
+    position: absolute;
+    left: 200px;
+    top: 140px;
+}
 
-
+#box2 {
+    display: inline-block; 
+    position: absolute;
+    left: 600px;
+    top: 140px;
+}
