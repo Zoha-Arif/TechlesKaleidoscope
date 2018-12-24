@@ -18,7 +18,17 @@ function typeWriter() {
     var h = i + 1; 
     if (h == txt.length){
         var x = document.getElementById("cursor");
-        x.style.display = "block";
+        x.style.display = "inline-block";
+        var y = document.getElementById("hide1");
+        y.style.display = "block";
+        var z = document.getElementById("hide2");
+        z.style.display = "block";
+        var f = document.getElementById("hide3");
+        f.style.display = "inline-block";
+        var g = document.getElementById("play"); 
+        g.style.display = "inline-block"; 
+        var j = document.getElementById("hide4"); 
+        j.style.display = "block"; 
     }
 }
 
