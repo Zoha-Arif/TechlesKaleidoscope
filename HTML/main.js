@@ -15,7 +15,7 @@ function typeWriter() {
         i++;
         setTimeout(typeWriter, speed);
     }
-    var h = i + 1; 
+    /* var h = i + 1; 
     if (h == txt.length){
         var x = document.getElementById("cursor");
         x.style.display = "inline-block";
@@ -29,13 +29,14 @@ function typeWriter() {
         g.style.display = "inline-block"; 
         var j = document.getElementById("hide4"); 
         j.style.display = "block"; 
-    }
+    } */
 }
 
 typeWriter.call(); 
 
 })
 
+/*
 var cursor = true;
 var speed = 220;
 
@@ -49,6 +50,7 @@ setInterval(() => {
    }
 }, speed);
 
+*/
 var cursor = true;
 var speed = 220;
 
