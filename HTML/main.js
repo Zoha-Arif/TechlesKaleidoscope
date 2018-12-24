@@ -15,5 +15,3 @@ function typeWriter() {
     }
 }
  
- $(document).ready(function(){
- })
