@@ -1,3 +1,5 @@
+$(document).ready(function(){
+
 var i = 0;
 var txt = "A K-Type Analog-Humanoid Node Geo-electronic bot. I’ve lived in a realm known as \
 the Techles Kaleidoscope for centuries toiling to uncover \
@@ -16,3 +18,4 @@ function typeWriter() {
 }
 
 typeWriter.call(); 
+})
