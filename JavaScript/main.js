@@ -50,7 +50,6 @@ setInterval(() => {
    }
 }, speed);
 
-*/
 var cursor = true;
 var speed = 220;
 
@@ -63,3 +62,4 @@ setInterval(() => {
      cursor = true;
    }
 }, speed);
+*/
