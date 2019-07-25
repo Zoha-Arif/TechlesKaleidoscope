@@ -23,7 +23,7 @@ var rooms = {
     "room15": "Sorry, can't tell ya that. ", 
     "room16": "That's mean. Kindness is the way to go. ",
     "room17": "I only eat beets because that's all I like. ",
-    "room18": "Did you just mention beets? I L O V E beets. I can't tell you where I get my beets from though. It's confidential. Why? Don't ask why. ",
+    "room18": "Did you just mention beets? I L O V E beets. (っ˘ڡ˘ς) I can't tell you where I get my beets from though. It's confidential. Why? Don't ask why. ",
     "room19": "I pretend I have a mom. ",
     "room20": "I exist to educate new programmers. ", 
     "room21": "I don't really like chicken. ", 
@@ -37,8 +37,11 @@ var rooms = {
     "room29": "We don't have Costco on my planet. ",
     "room30": "We don't have Walmart on my planet. ", 
     "room31": "I don't have an owner. ", 
-    "room32":"I've heard of Best Buy. But we don't have it where I love.",
-    "room33": "I sleep when I feel like it. Not out of necessity. "
+    "room32":"I've heard of Best Buy. But we don't have it where I live.",
+    "room33": "I sleep when I feel like it. Not out of necessity. ", 
+    "room34": "I'm great. ( ͡ᵔ ͜ʖ ͡ᵔ ) Thanks for asking. ",
+    "room35": "Right now, I'm talking to you. Usually, around this time, I would be at work. ",
+    "room36": "I like blue. "
     
 }
 
@@ -114,6 +117,22 @@ $(document).ready(function(){
                 }
                 typeWriter.call(); 
             }
+            else if (input1.includes("favorite color")){ 
+                var i = 0;
+                var w = 1; 
+                var txt = rooms["room36"]; /* The text */
+                var speed = 30; /* The speed/duration of the effect in milliseconds */
+
+                //This function is attributed to W3 Schools!//
+                function typeWriter() {
+                    if (i < txt.length) {
+                    document.getElementById("command").innerHTML += txt.charAt(i);
+                    i++;
+                    setTimeout(typeWriter, speed);
+                    }
+                }
+                typeWriter.call(); 
+            }
             else if (input1.includes("sleep")){ 
                 var i = 0;
                 var w = 1; 
@@ -134,6 +153,38 @@ $(document).ready(function(){
                 var i = 0;
                 var w = 1; 
                 var txt = rooms["room32"]; /* The text */
+                var speed = 30; /* The speed/duration of the effect in milliseconds */
+
+                //This function is attributed to W3 Schools!//
+                function typeWriter() {
+                    if (i < txt.length) {
+                    document.getElementById("command").innerHTML += txt.charAt(i);
+                    i++;
+                    setTimeout(typeWriter, speed);
+                    }
+                }
+                typeWriter.call(); 
+            }
+            else if ((input1.includes("how are you"))  || (input1.includes("how are you doing"))){ 
+                var i = 0;
+                var w = 1; 
+                var txt = rooms["room34"]; /* The text */
+                var speed = 30; /* The speed/duration of the effect in milliseconds */
+
+                //This function is attributed to W3 Schools!//
+                function typeWriter() {
+                    if (i < txt.length) {
+                    document.getElementById("command").innerHTML += txt.charAt(i);
+                    i++;
+                    setTimeout(typeWriter, speed);
+                    }
+                }
+                typeWriter.call(); 
+            }
+            else if ((input1.includes("what do you do"))  || (input1.includes("what are you doing"))){ 
+                var i = 0;
+                var w = 1; 
+                var txt = rooms["room35"]; /* The text */
                 var speed = 30; /* The speed/duration of the effect in milliseconds */
 
                 //This function is attributed to W3 Schools!//
