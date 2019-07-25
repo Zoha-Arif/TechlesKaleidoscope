@@ -5,8 +5,8 @@ var txt = "A M-Type Analog-Humanoid Node Geo-electronic Orbital bot. I’ve live
 the Techles Kaleidoscope for centuries toiling to uncover \
 a method to contact other realms. I finally fused my research together and was able to \
 create this portal between the realm of the kaleidoscope and earth. I now use this portal \
-to forward my knowledge of machine learning to young computer scientists around the world. \
-I hope you feel welcomed and find my lessons enlightening."; /* The text */
+to forward my knowledge to young computer scientists around the universe. =_=\
+"; /* The text */
 var speed = 50; /* The speed/duration of the effect in milliseconds */
     
 function typeWriter() {

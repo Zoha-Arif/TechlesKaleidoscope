@@ -17,7 +17,7 @@
     font-size: 16px;
     font-family: 'Source Code Pro', monospace;
     position: relative; 
-    left: 50%;
+    left: 60%;
 } 
 
 .navb:hover {
@@ -25,11 +25,11 @@
 }
 
 #eyekang {
-    height: 70%;
+    height: 90%;
     width: auto;
     position: absolute; 
-    top: 20%; 
-    left: 50%;
+    top: 10%; 
+    left: 40%;
     z-index: 10;
 }
 
