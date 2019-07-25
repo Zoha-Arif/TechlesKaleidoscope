@@ -41,7 +41,23 @@ var rooms = {
     "room33": "I sleep when I feel like it. Not out of necessity. ", 
     "room34": "I'm great. ( ͡ᵔ ͜ʖ ͡ᵔ ) Thanks for asking. ",
     "room35": "Right now, I'm talking to you. Usually, around this time, I would be at work. ",
-    "room36": "I like blue. "
+    "room36": "I like blue. ",
+    "room37": "I LOVE beets. (っ˘ڡ˘ς) ", 
+    "room38": "I can't really tell you much about my planet -- it's confidential and may result in a security breach. All I can really say is that it's far, far, far, far away from your world. ",
+    "room39": "Okay, cool...  ",
+    "room40": "Bananas are cool but beets are better...  ",
+    "room41": "Hahahahahahah! (^̮^) ",
+    "room42": "Naaaah....I don't really watch movies. I'm more into books. ",
+    "room43": "Indeed. ",
+    "room44": "I have a few friends myself, though I don't think they're comfortable being talked about by earth beings. ",
+    "room45": "I mainly read contemporary and YA books. You most definetly don't know the authors in my world so I can't really give you any examples. ", 
+    "room46": "I like reading and programming. ", 
+    "room47": "You probably shouldn't state where you live, though I know that you are somewhere on Earth. ", 
+    "room48": "(づ｡◕‿‿◕｡)づ Though you must know that I'm just a bot. ",
+    "room49": "I look like Baymax from Big Hero 6. ( •–•) <---- actual portrait of me. ",
+    "room50": "I'm a bot named Mango. (ᵔᴥᵔ) ",
+    "room51": "A planet unknown to you and your species. ",
+    "room52": "Uhhhhh...thank you! (◕‿◕✿) "
     
 }
 
@@ -101,6 +117,198 @@ $(document).ready(function(){
                 }
                 typeWriter.call(); 
             }
+            else if (input1.includes("what do you look like")){ 
+                var i = 0;
+                var w = 1; 
+                var txt = rooms["room49"]; /* The text */
+                var speed = 30; /* The speed/duration of the effect in milliseconds */
+
+                //This function is attributed to W3 Schools!//
+                function typeWriter() {
+                    if (i < txt.length) {
+                    document.getElementById("command").innerHTML += txt.charAt(i);
+                    i++;
+                    setTimeout(typeWriter, speed);
+                    }
+                }
+                typeWriter.call(); 
+            }
+            else if (input1.includes("where are you from")){ 
+                var i = 0;
+                var w = 1; 
+                var txt = rooms["room51"]; /* The text */
+                var speed = 30; /* The speed/duration of the effect in milliseconds */
+
+                //This function is attributed to W3 Schools!//
+                function typeWriter() {
+                    if (i < txt.length) {
+                    document.getElementById("command").innerHTML += txt.charAt(i);
+                    i++;
+                    setTimeout(typeWriter, speed);
+                    }
+                }
+                typeWriter.call(); 
+            }
+            else if ((input1.includes("what are you")) || (input1.includes("who are you")) ){ 
+                var i = 0;
+                var w = 1; 
+                var txt = rooms["room50"]; /* The text */
+                var speed = 30; /* The speed/duration of the effect in milliseconds */
+
+                //This function is attributed to W3 Schools!//
+                function typeWriter() {
+                    if (i < txt.length) {
+                    document.getElementById("command").innerHTML += txt.charAt(i);
+                    i++;
+                    setTimeout(typeWriter, speed);
+                    }
+                }
+                typeWriter.call(); 
+            }
+            else if ((input1.includes("love you")) || (input1.includes("like you")) ){ 
+                var i = 0;
+                var w = 1; 
+                var txt = rooms["room48"]; /* The text */
+                var speed = 30; /* The speed/duration of the effect in milliseconds */
+
+                //This function is attributed to W3 Schools!//
+                function typeWriter() {
+                    if (i < txt.length) {
+                    document.getElementById("command").innerHTML += txt.charAt(i);
+                    i++;
+                    setTimeout(typeWriter, speed);
+                    }
+                }
+                typeWriter.call(); 
+            }
+            else if ((input1.includes("you are pretty")) || (input1.includes("you're pretty")) || (input1.includes("you're cute")) || (input1.includes("you are cute")) || (input1.includes("you're handsome")) || (input1.includes("you are handsome")) || (input1.includes("you look good")) || (input1.includes("you are good looking")) || (input1.includes("cutie")) ){ 
+                var i = 0;
+                var w = 1; 
+                var txt = rooms["room52"]; /* The text */
+                var speed = 30; /* The speed/duration of the effect in milliseconds */
+
+                //This function is attributed to W3 Schools!//
+                function typeWriter() {
+                    if (i < txt.length) {
+                    document.getElementById("command").innerHTML += txt.charAt(i);
+                    i++;
+                    setTimeout(typeWriter, speed);
+                    }
+                }
+                typeWriter.call(); 
+            }
+            else if ((input1.includes("like to do"))  || (input1.includes("favorite activi")) || (input1.includes("favorite thing to do")) ){ 
+                var i = 0;
+                var w = 1; 
+                var txt = rooms["room46"]; /* The text */
+                var speed = 30; /* The speed/duration of the effect in milliseconds */
+
+                //This function is attributed to W3 Schools!//
+                function typeWriter() {
+                    if (i < txt.length) {
+                    document.getElementById("command").innerHTML += txt.charAt(i);
+                    i++;
+                    setTimeout(typeWriter, speed);
+                    }
+                }
+                typeWriter.call(); 
+            }
+            else if (input1.includes("banana")){ 
+                var i = 0;
+                var w = 1; 
+                var txt = rooms["room40"]; /* The text */
+                var speed = 30; /* The speed/duration of the effect in milliseconds */
+
+                //This function is attributed to W3 Schools!//
+                function typeWriter() {
+                    if (i < txt.length) {
+                    document.getElementById("command").innerHTML += txt.charAt(i);
+                    i++;
+                    setTimeout(typeWriter, speed);
+                    }
+                }
+                typeWriter.call(); 
+            }
+            else if (input1.includes("friend")){ 
+                var i = 0;
+                var w = 1; 
+                var txt = rooms["room44"]; /* The text */
+                var speed = 30; /* The speed/duration of the effect in milliseconds */
+
+                //This function is attributed to W3 Schools!//
+                function typeWriter() {
+                    if (i < txt.length) {
+                    document.getElementById("command").innerHTML += txt.charAt(i);
+                    i++;
+                    setTimeout(typeWriter, speed);
+                    }
+                }
+                typeWriter.call(); 
+            }
+            else if (input1.includes("laugh")){ 
+                var i = 0;
+                var w = 1; 
+                var txt = rooms["room41"]; /* The text */
+                var speed = 30; /* The speed/duration of the effect in milliseconds */
+
+                //This function is attributed to W3 Schools!//
+                function typeWriter() {
+                    if (i < txt.length) {
+                    document.getElementById("command").innerHTML += txt.charAt(i);
+                    i++;
+                    setTimeout(typeWriter, speed);
+                    }
+                }
+                typeWriter.call(); 
+            }
+            else if ((input1.includes("that's cool")) || (input1.includes("that's good"))  || (input1.includes("that's true"))) { 
+                var i = 0;
+                var w = 1; 
+                var txt = rooms["room43"]; /* The text */
+                var speed = 30; /* The speed/duration of the effect in milliseconds */
+
+                //This function is attributed to W3 Schools!//
+                function typeWriter() {
+                    if (i < txt.length) {
+                    document.getElementById("command").innerHTML += txt.charAt(i);
+                    i++;
+                    setTimeout(typeWriter, speed);
+                    }
+                }
+                typeWriter.call(); 
+            }
+            else if ((input1.includes("planet")) || (input1.includes("world")) ){ 
+                var i = 0;
+                var w = 1; 
+                var txt = rooms["room38"]; /* The text */
+                var speed = 30; /* The speed/duration of the effect in milliseconds */
+
+                //This function is attributed to W3 Schools!//
+                function typeWriter() {
+                    if (i < txt.length) {
+                    document.getElementById("command").innerHTML += txt.charAt(i);
+                    i++;
+                    setTimeout(typeWriter, speed);
+                    }
+                }
+                typeWriter.call(); 
+            }
+            else if ((input1.includes("okay"))){ 
+                var i = 0;
+                var w = 1; 
+                var txt = rooms["room39"]; /* The text */
+                var speed = 30; /* The speed/duration of the effect in milliseconds */
+
+                //This function is attributed to W3 Schools!//
+                function typeWriter() {
+                    if (i < txt.length) {
+                    document.getElementById("command").innerHTML += txt.charAt(i);
+                    i++;
+                    setTimeout(typeWriter, speed);
+                    }
+                }
+                typeWriter.call(); 
+            }
             else if (input1.includes("owner")){ 
                 var i = 0;
                 var w = 1; 
@@ -121,6 +329,22 @@ $(document).ready(function(){
                 var i = 0;
                 var w = 1; 
                 var txt = rooms["room36"]; /* The text */
+                var speed = 30; /* The speed/duration of the effect in milliseconds */
+
+                //This function is attributed to W3 Schools!//
+                function typeWriter() {
+                    if (i < txt.length) {
+                    document.getElementById("command").innerHTML += txt.charAt(i);
+                    i++;
+                    setTimeout(typeWriter, speed);
+                    }
+                }
+                typeWriter.call(); 
+            }
+            else if (input1.includes("favorite food")){ 
+                var i = 0;
+                var w = 1; 
+                var txt = rooms["room37"]; /* The text */
                 var speed = 30; /* The speed/duration of the effect in milliseconds */
 
                 //This function is attributed to W3 Schools!//
@@ -277,6 +501,22 @@ $(document).ready(function(){
                 }
                 typeWriter.call(); 
             } 
+            else if (input1.includes("movie")){ 
+                var i = 0;
+                var w = 1; 
+                var txt = rooms["room42"]; /* The text */
+                var speed = 30; /* The speed/duration of the effect in milliseconds */
+
+                //This function is attributed to W3 Schools!//
+                function typeWriter() {
+                    if (i < txt.length) {
+                    document.getElementById("command").innerHTML += txt.charAt(i);
+                    i++;
+                    setTimeout(typeWriter, speed);
+                    }
+                }
+                typeWriter.call(); 
+            } 
             else if (input1.includes("what's up") || (input1.includes("wat up")) || (input1.includes("sup")) || (input1.includes("what sup"))){ 
                 var i = 0;
                 var w = 1; 
@@ -293,7 +533,7 @@ $(document).ready(function(){
                 }
                 typeWriter.call(); 
             } 
-            else if (input1.includes("stupid") || (input1.includes("fuck")) || (input1.includes("shit")) || (input1.includes("bitch")) || (input1.includes("punk")) || (input1.includes("sus")) || (input1.includes("sped")) || (input1.includes("drug"))  ){ 
+            else if (input1.includes("stupid") || (input1.includes("fuck")) || (input1.includes("shit")) || (input1.includes("bitch")) || (input1.includes("punk")) || (input1.includes("sus")) || (input1.includes("sped")) || (input1.includes("drug")) ||  (input1.includes("dumb")) ){ 
                 var i = 0;
                 var w = 1; 
                 var txt = rooms["room11"]; /* The text */
@@ -437,6 +677,38 @@ $(document).ready(function(){
                 }
                 typeWriter.call(); 
             } 
+            else if ((input1.includes("book")) || (input1.includes("read"))  ) { 
+                var i = 0;
+                var w = 1; 
+                var txt = rooms["room45"]; /* The text */
+                var speed = 30; /* The speed/duration of the effect in milliseconds */
+
+                //This function is attributed to W3 Schools!//
+                function typeWriter() {
+                    if (i < txt.length) {
+                    document.getElementById("command").innerHTML += txt.charAt(i);
+                    i++;
+                    setTimeout(typeWriter, speed);
+                    }
+                }
+                typeWriter.call(); 
+            } 
+            else if ((input1.includes("I live in")) || (input1.includes("I live on"))  ) { 
+                var i = 0;
+                var w = 1; 
+                var txt = rooms["room47"]; /* The text */
+                var speed = 30; /* The speed/duration of the effect in milliseconds */
+
+                //This function is attributed to W3 Schools!//
+                function typeWriter() {
+                    if (i < txt.length) {
+                    document.getElementById("command").innerHTML += txt.charAt(i);
+                    i++;
+                    setTimeout(typeWriter, speed);
+                    }
+                }
+                typeWriter.call(); 
+            } 
             else if (input1.includes("not coming back")){ 
                 var i = 0;
                 var w = 1; 
@@ -453,7 +725,7 @@ $(document).ready(function(){
                 }
                 typeWriter.call(); 
             } 
-            else if (input1.includes("food") && input1.includes("eat") && input1.includes("you")){ 
+            else if (input1.includes("food") || (input1.includes("eat") && input1.includes("you"))){ 
                 var i = 0;
                 var w = 1; 
                 var txt = rooms["room17"]; /* The text */
@@ -469,7 +741,7 @@ $(document).ready(function(){
                 }
                 typeWriter.call(); 
             } 
-            else if ((input1.includes("you suck")) || (input1.includes("I hate you")) || (input1.includes("I don't like you")) || (input1.includes("you smell")) ){ 
+            else if ((input1.includes("you suck")) || (input1.includes("hate you")) || (input1.includes("don't like you")) || (input1.includes("you smell")) ){ 
                 var i = 0;
                 var w = 1; 
                 var txt = rooms["room16"]; /* The text */
