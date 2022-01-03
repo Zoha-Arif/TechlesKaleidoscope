@@ -30,14 +30,6 @@
     z-index: -1;
 }
 
-#questionMarks{
-    position: absolute;
-    left: 44%;
-    top: 3%;
-    height: 170px;
-    z-index: -1;
-}
-
 #InstagramLogo {
     position: absolute;
     top: 94%; 
