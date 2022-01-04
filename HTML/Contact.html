@@ -39,6 +39,11 @@
     </p>
 
     <img src="../images/contactInformation.png" id="contactInformation" class="AboutTitles">
+
+    <img src="../images/05297e_4063fdd1843b44bf8c21c9718c2483e1_mv2.gif" id="astroGif">
+
+    <img src="../images/blueSmoke.png" id="blueSmoke">
+
     <section>
         <div class="container">
             <form action="https://formsubmit.co/zoha862@gmail.com" method="POST">
@@ -73,7 +78,19 @@
     </section>
 
     <style>
-
+        #blueSmoke {
+            position: absolute;
+            height: 350px;
+            top: 45%;
+            left: 36%;
+            z-index: -10;
+        }
+        #astroGif {
+            position: absolute;
+            transform: rotate(-10deg);
+            top: 46%;
+            left: 36%;
+        }
         .form-group input, 
         .form-group textarea {
             width: 100%;
@@ -158,5 +175,26 @@
             }
         }
     </style>
+
+    <canvas class="background2"></canvas>
+    <script src="particles.js-master/dist/particles.min.js"></script>
+
+    <style>
+    .background2 {
+        position: absolute;
+        width: 600px;
+        top: 20%;
+        left: 40%;
+        z-index: 0;
+    }
+    </style>
+    <script>
+        window.onload = function() {
+            Particles.init({
+            selector: '.background2',
+            color: 'white'
+            });
+        };
+    </script>
 
 </body>
