@@ -1,16 +1,16 @@
 #projectHeaderGraphic {
     position: absolute;
-    left: 42%;
+    left: 44%;
     top: 2.5%;
-    height: 150px;
+    height: 160px;
     z-index: -1;
 }
 
 #contactDoodle {
     position: absolute;
-    left: 47%;
-    top: 4%;
-    height: 120px;
+    left: 46%;
+    top: 1%;
+    height: 150px;
     z-index: -1;
 }
 
@@ -24,8 +24,8 @@
 
 #piggyBankDoodle {
     position: absolute;
-    left: 43%;
-    top: 6%;
+    left: 42%;
+    top: 3%;
     height: 130px;
     z-index: -1;
 }
