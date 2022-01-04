@@ -35,12 +35,50 @@
         of planning and hosting guest speaker events and lectures from space <br/> 
         industry professionals this semester and would love your help in planning <br/> 
         and executing these  Feel free to contact us at the below credentials if <br/>  
-        you would like to join :)
+        you would like to join (ɔ◔‿◔)ɔ ♥
     </p>
 
     <img src="../images/contactInformation.png" id="contactInformation" class="AboutTitles">
+    <section>
+        <div class="container">
+            <form action="https://formsubmit.co/zoha862@gmail.com" method="POST">
+                <div class="form-group">
+                    <label for="firstName">First Name</label>
+                    <input class="inputBox" placeholder="Enter your first name" type="text" id="firstName" name="firstName" required>
+                </div>
+                <br/>
+                <div class="form-group">
+                    <label for="lastName">Last Name</label>
+                    <input class="inputBox" placeholder="Enter your last name" type="text" id="lastName" name="lastName" required>
+                </div>
+                <br/>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input class="inputBox" placeholder="Enter your email" type="email" id="email" name="email" required>
+                </div>
+                <br/>
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input class="inputBox" placeholder="Enter your email subject" type="text" name="_subject" name="subject" required>
+                </div>
+                <br/>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="inputBox" placeholder="Type your email body here" name="message" id="message" cols="38" rows="14"></textarea>
+                </div>
+                <br/>
+                <button class="button-80" type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
 
     <style>
+
+        .form-group input, 
+        .form-group textarea {
+            width: 100%;
+        }
+
         .AboutTitles {
             position: relative;
             height: 25px;
@@ -49,5 +87,76 @@
         #gettingInvolvedTitle {
             top: 15px;
         }
+
+        #contactInformation {
+            position: relative;
+            top: 0px; 
+        }
+
+        .inputBox {
+            position: relative;
+            padding: 0;
+            margin: 0; 
+            border: solid 1.5px white; 
+            box-sizing: border-box;
+            background-color: #241F1F;
+            box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+        }
+
+        input, select, textarea{
+            color: white;
+            font-family: 'Source Code Pro', monospace;
+        }
+
+        section {
+            flex-direction: column;
+        }
+
+        #status {
+            position: relative;
+            left: 10px;
+            width: 30%;
+            max-width: 500px; 
+            padding: 10px;
+            margin: 0;
+            border-radius: 8px;
+        }
+
+        #status.success {
+            background-color:  rgb(116, 197, 116);
+            animation: status 4s ease forwards;
+        }
+
+        #status.error {
+            background-color: rgb(207, 112, 112);
+            animation: status 4s ease forwards;
+        }
+
+        .container {
+            width: 420px;
+            padding: 20px;
+        }
+
+        .form-group {
+            width: 100%;
+            margin-top: 0px;
+            font-size: 17px; 
+        }
+
+        @keyframes status{
+            0% {
+                opacity: 1;
+                pointer-events: all;
+            }
+            90% {
+                opacity: 1;
+                pointer-events: all;
+            }
+            100% {
+                opacity: 0;
+                pointer-events: none;
+            }
+        }
     </style>
+
 </body>

@@ -8,7 +8,7 @@
 
 #contactDoodle {
     position: absolute;
-    left: 46%;
+    left: 47%;
     top: 4%;
     height: 120px;
     z-index: -1;
@@ -120,7 +120,6 @@
 .button-80:not(:disabled):active {
     transform: translateY(.125rem);
 }
-
 
 #navigation {
     background-color: white; 
@@ -301,8 +300,8 @@ body {
 }
 
 #content {
-position: absolute; 
-width: 1400px; 
+    position: absolute; 
+    width: 1400px; 
 }
 
 #introduction {
